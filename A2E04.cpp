@@ -17,7 +17,7 @@ main(){
 
     area = base*altura/2;
 
-    cout<<"A area do triangulo nao é " << area;
+    cout<<"A area do triangulo é " << area;
 
 
 
