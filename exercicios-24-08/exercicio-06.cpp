@@ -4,11 +4,14 @@ using namespace std;
 main(){
     setlocale(LC_ALL, "portuguese");
 
-    unsigned int num;
+    int num;
     int i = 1;
     int somaDosDivisores = 0;
-    cout<<"Insira um número para saber se ele é perfeito: "; cin>>num;
-
+    
+    do {
+        cout<<"Insira um número inteiro para saber se ele é perfeito: "; cin>>num;
+    } while(num<0);
+    
     while(i<num){
         if(num % i == 0){
             somaDosDivisores += i;
