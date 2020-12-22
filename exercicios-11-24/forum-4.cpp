@@ -80,6 +80,7 @@ void dadosColaborador(struct funcionario pao[], int alvo, int tamanho){
 
 
 
+
 int main(){
 
     setlocale(LC_ALL, "portuguese");
